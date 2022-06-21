@@ -1,0 +1,26 @@
+{% include header.html %}
+
+	<main id="main" class="content-styles">
+		<header>
+			<h1>{{ page.title }}</h1>
+			{% if page.description %}
+			<p>{{ page.description}}</p>
+			{% endif %}
+		</header>
+		{{ content }}
+		<section class="archive-list">
+			{% for post in site.posts %}
+			<article class="archive-item"><a href="{{ post.url }}">
+				<h2 class="headline">{{ post.title }}</h2>
+				<time class="date">{{ post.date | date: "%b %d, %Y" }}</time>
+				<p class="categories">
+					{% for category in post.categories %}
+						{{ category }}{% if forloop.last == false %},{% endif %}
+					{% endfor %}
+				</p>
+			</a></article>
+			{% endfor %}
+		</section>
+	</main>
+
+{% include footer.html %}

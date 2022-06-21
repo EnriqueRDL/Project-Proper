@@ -1,0 +1,286 @@
+/* Meyer's Reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* ===== html ===== */
+html {
+	font-size: 1.15rem;
+}
+
+
+
+/* ===== body ===== */
+body {
+	line-height: 2;
+	padding: 2.5rem;
+	overflow-y: scroll;
+}
+
+/* ===== Classes for JS ===== */
+
+/* === Fonts  === */
+body.sans {
+	font-family: sans-serif;
+}
+body.serif {
+	font-family: serif;
+}
+body.mono {
+	font-family: monospace;
+}
+
+/* === Dark/Light Mode === */
+body.dark {
+	background: #1f1f25;
+	color: #e7e7e7;
+	text-shadow: 0 1px 1px #0f0f15;
+}
+body.light {
+	background: #f0f0f0;
+	color: #1d1d1d;
+	text-shadow: 0 1px 1px #e9e9e9;
+}
+body.dark .pf-toggler svg {
+	fill: #f0f0f0;
+}
+body.light .pf-toggler svg {
+	fill: #1d1d1d;
+}
+
+/* === Content Widths === */
+body .container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+body.largest .container {
+	width: 100%;
+}
+body.large .container {
+	width: 960px;
+}
+body.medium .container {
+	width: 650px;
+}
+body.small .container {
+	width: 400px;
+}
+
+/* ===== #header ===== */
+#header {
+}
+#header h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* ===== #nav ===== */
+#nav {
+	margin-top: 1.5rem;
+}
+#nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+#nav li {
+}
+#nav a,
+#nav a:visited {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: .125rem solid currentColor;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+/* ===== #main ===== */
+#main {
+	margin: 2.5rem 0;
+}
+
+/* ===== Content Styles ===== */
+.content-styles h1,
+.content-styles h2,
+.content-styles h3,
+.content-styles h4,
+.content-styles h5,
+.content-styles h6,
+.content-styles p,
+.content-styles pre,
+.content-styles ul,
+.content-styles ol,
+.content-styles blockquote,
+.content-styles figure,
+.content-styles table,
+.content-styles {
+	display: block;
+	margin-bottom: 1rem;
+	list-style-type: decimal;
+}
+.content-styles li > ul,
+.content-styles li > ol {
+	margin-bottom: 0;
+}
+.content-styles img {
+	display: block;
+	max-width: 100%;
+}
+.content-styles a,
+.content-styles a:visited {
+	color: #4477CC;
+}
+.content-styles h1,
+.content-styles h2,
+.content-styles h3,
+.content-styles h4,
+.content-styles h5,
+.content-styles h6 {
+	font-weight: 700;
+	line-height: 1.5;
+}
+.content-styles h1 {
+	font-size: 3rem;
+}
+.content-styles h2 {
+	font-size: 2.5rem;
+}
+.content-styles h3 {
+	font-size: 2rem;
+}
+.content-styles h4 {
+	font-size: 1.5rem;
+}
+.content-styles h5 {
+	font-size: 1.25rem;
+}
+.content-styles ul,
+.content-styles ol {
+	margin-left: 1rem;
+}
+.content-styles li {
+	padding-left: .5rem;
+}
+.content-styles ul {
+	list-style-type: '➞';
+}
+.content-styles li ul {
+	list-style-type: '↳';
+}
+.content-styles ol {
+	list-style-type: decimal;
+}
+.content-styles li ol {
+	list-style-type: lower-roman;
+}
+
+/* ===== Page Formatter ===== */
+.page-formatter {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 99998;
+	border: 1px solid currentColor;
+	border-top: none;
+	padding: .5rem 1rem 1rem;
+	transform: translate(0, -100%);
+	transition: transform .15s ease;
+}
+.page-formatter.show {
+	transform: none;
+}
+body.dark .page-formatter {
+	background: #1f1f25;
+}
+body.light .page-formatter {
+	background: #f0f0f0;
+}
+.page-formatter div {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: .25rem;
+	column-gap: .25rem;
+}
+.page-formatter h2 {
+	line-height: 1.5;
+	font-weight: 600;
+}
+.page-formatter h3 {
+	font-size: .75rem;
+	flex-basis: 100%;
+}
+.page-formatter button {
+	background: #4477CC;
+	border: none;
+	cursor: pointer;
+	color: #f0f0f0;
+	padding: .25rem;
+}
+.pf-toggler {
+	position: fixed;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	border: none;
+	padding: .5rem;
+	margin: 0;
+	background: inherit;
+	z-index: 99999;
+}
+@media print {
+        .page-formatter,
+	.pf-toggler {
+                display: none;
+        }   
+}
+
+/* ===== Archive ===== */
+.archive-list {
+}
+.archive-item {
+	border-bottom: .125rem solid #4477CC;
+}
+.archive-item:first-child {
+	border-top: .125rem solid #4477CC;
+}
+.archive-item a,
+.archive-item a:visited {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	text-decoration: none;
+	color: inherit;
+	padding: 1rem;
+}
+@media screen and (max-width: 500px) {
+	.archive-item a,
+	.archive-item a:visited {
+		grid-template-columns: 1fr;
+		gap: .5rem;
+	}
+}
+.archive-item a:hover,
+.archive-item a:focus {
+	background: #4477CC22;
+}
+.archive-item a * {
+	margin: 0!important;
+	padding: 0!important;
+	display: block!important;
+}
+.archive-item .headline {
+	font-size: 1.5rem;
+	order: 1;
+}
+.archive-item .date {
+	order: 2;
+}
+.archive-item .categories {
+	order: 3;
+}
+
+/* ===== #footer ===== */
+#footer {
+	border-top: .125rem solid currentColor;
+}

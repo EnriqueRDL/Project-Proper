@@ -1,0 +1,32 @@
+I"<h1 id="modes">Modes</h1>
+
+<p>Vim has 4 Modes</p>
+
+<ul>
+  <li>Normal Mode</li>
+  <li>Command Mode</li>
+  <li>Insert Mode</li>
+  <li>Visual Mode</li>
+</ul>
+
+<h2 id="moving-around">Moving Around</h2>
+
+<ul>
+  <li>h = Move left</li>
+  <li>l = Move right</li>
+  <li>j = Move up</li>
+  <li>k = Move done</li>
+</ul>
+
+<h2 id="basic-insert-mode-commands">Basic Insert Mode Commands</h2>
+
+<ul>
+  <li>i = Enter insert mode before the cursor position</li>
+  <li>I = Enter insert mode at the beginning of the line</li>
+  <li>a = Enter insert mode after the cursor position</li>
+  <li>A = Enter insert mode at the end of the line.</li>
+  <li>o = Enter insert mode and create a line below current line</li>
+  <li>O = Enter insert mode and create a line above current line</li>
+</ul>
+
+:ET
