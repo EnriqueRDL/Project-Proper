@@ -1,6 +1,6 @@
 title: Project Proper
 description: Finding the most private and secure way to use technology.
-url: https://proper.enriquerdl.com
+url: https://proper.enriquerdl.com # https://proper.enriquerdl.com  # http://localhost:4000
 permalink: /:categories/:title
 defaults:
   -

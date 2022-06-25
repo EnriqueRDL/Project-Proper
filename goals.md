@@ -101,12 +101,17 @@ Here's the list of my goals.
 - Servers
 	- Find the difference between servers and hosting
 	- Find out what are the best server providers
+	- Creating your own server (for development and hosting)
+		- Nginx
+		- Apache
 
 - NAS
 	- Find out how NASs work
 	- Find out how to create a NAS
 	- Learn NAS vulnerabilities
 	- Learn NAS best practicies
+	- NFS
+	- Samba
 
 - Networks
 	- Learn how networks work in general
@@ -118,6 +123,13 @@ Here's the list of my goals.
 	- Learn how routers work
 	- Learn router vulnerabilities
 	- Learn router best practices
+
+- Firewalls
+	- nftables
+
+- Input Devices
+	- Mice
+	- Keyboards
 
 - IP Address
 	- Learn how IP Addresses work
@@ -141,6 +153,8 @@ Here's the list of my goals.
 	- Learn what they are
 	- Learn how to disable them
 	- Find hardware that doesn't have them
+
+- Libre Boot vs Core Boot
 
 - Linux Distributions
 	- Find the most used distros
@@ -176,49 +190,118 @@ Here's the list of my goals.
 	- xmonad
 
 - Display Managers
-	- 
+	- lightdm
 
 - Package Managers
 	- Apt
 	- Pacman
 
 - Terminal Emulators
+	- alacritty
+	- konsole
+	- kitty
+	- st
+
 - Shells
+	- bash
+	- dash
+	- zsh
+	- fish
+
 - File Managers
-- XAMPP
-- Nginx
-- Apache
+	- ranger
+
 - Vim
+	- History
+	- Commands
+	- Configurations
+
 - EMACS
-- USBs
-- Discs
-- Data Recovery
-- Hard Drives
-- SSDs
+	- History
+	- Applications
+	- More
+
+- Storage
+	- USBs
+	- Discs
+	- Data Recovery
+	- Hard Drives
+	- SSDs
+	- Partitions
+	- File Systems
+
 - Yubikeys
+	- History
+	- How to use
+	- Vulnerabilities
+	- Best practices
+
 - Bank Accounts
+	- Types of accounts
+	- Best practices
+	- Vulnerabilities
+
 - Taxes
+	- How it works
+	- How crypto is used to avoid
+
 - Payment Processors (Paypal, Stripe, etc)
+	- Best practices
+	- How to get a fully functioning account
+
 - Crypto Currencies
-- Crypto Mining
-- Crypto Hot Storage
-- Crypto Cold Storage
+	- Best way to buy
+	- Crypto Mining
+	- Crypto Hot Storage
+	- Crypto Cold Storage
+
 - Virtual Machines (and their safety, maybe using one virtual machine for one workflow)
+	- Safest OSs
+	- Best for gaming
+	- Best for work
+
+- Specialty OS
+	- Tails
+	- Kali
 
 - Emails
 	- Deleting self from websites that I have accounts on.
-	- Find the best email service
+	- Find the best email service (safest and secure)
 
 - Messaging Apps
+	- Look for the most accessible yet safe app.
+
 - Encryption
-- RSA Encryption
+	- RSA Encryption
+	- DNS Encryption
+	- Data at Rest Encryption
+
 - Hashing
+	- History
+
 - Passwords
+	- Password Managers
+	- Password Generators
+	- Password Hacking
+
 - TCP Connections
+	- How it works
+
 - PGP (Pretty Good Privacy)
+	- GnuGP
+	- OpenPGP
+
 - Git
-- Online Git platforms (GitHub, GitLabs, etc.)
+	- History
+	- Commands
+	- Online Git platforms (GitHub, GitLabs, etc.)
+
 - Best Laptops for Privacy & Security
+	- Research ThinkPads
+	- Research System76
+	- Research Purism
+	- Research Dell
+
 - Best Phones for Privacy & Security
 	- Private/Secure sim cards
 	- Best way to use sim cards
