@@ -15,9 +15,13 @@ I also see this as a long-term intellectual challenge to expand my knowledge and
 Here's the list of my goals.
 
 - Browsers
-	- ~~Find the best browser~~ (Firefox is the winner, for now)
-	- Configure the settings for the best browser
-	- Find the best plugins for the best browser
+	- Rank browsers (safety, usability, 
+	- Find necessary plugins for the browers
+
+- Suckless
+	- DWM
+	- st
+	- surf
 
 - RSS
 	- Find the best RSS Feed Reader (for each OS)
